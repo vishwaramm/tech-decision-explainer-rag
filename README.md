@@ -9,3 +9,9 @@ llm/ → vendor-agnostic abstraction
 pipelines/ → explicit reasoning stages
 
 models/ → contract-first development
+
+sources/ → raw truth
+
+processed/ → normalized truth
+
+embeddings/ → derived state
