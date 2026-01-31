@@ -1,10 +1,3 @@
-Here’s a **clean, public-repo-quality README rewrite** that reads like a senior engineer wrote it.
-You can drop this in as-is or tweak wording, but the structure and tone are exactly what reviewers expect.
-
----
-
-## Why This Separation Matters
-
 This project is intentionally structured to isolate deterministic logic from probabilistic behavior and to keep reasoning auditable.
 
 **Core principles:**
