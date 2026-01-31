@@ -1,11 +1,13 @@
 import os
 from openai import OpenAI
+from dotenv import load_dotenv
+load_dotenv()
 
 # I isolate all probabilistic behavior behind a thin interface so pipelines stay testable.
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI()
 
-EMBEDDING_MODEL = "text-embedding-3-large"
-CHAT_MODEL = "gpt-4o-mini"
+EMBEDDING_MODEL = api_key=os.getenv("OPENAI_MODEL_EMBED")
+CHAT_MODEL = api_key=os.getenv("OPENAI_MODEL_CHAT")
 
 def embed_text(text: str) -> list[float]:
     response = client.embeddings.create(

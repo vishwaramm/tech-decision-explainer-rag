@@ -1,4 +1,4 @@
-import chromab
+import chromadb
 from app.models.document import DocumentChunk
 
 class VectorStore:

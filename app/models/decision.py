@@ -13,9 +13,9 @@ class RationalEvidence(BaseModel):
     source: str
     section: str
     
-    class TechnicalDecision(BaseModel):
-        decision: str
-        rationale: List[RationalEvidence]
-        alternatives_considered: List[str]
-        known_tradeoffs: List[str]
-        confidence: float
+class TechnicalDecision(BaseModel):
+    decision: str
+    rationale: List[RationalEvidence]
+    alternatives_considered: List[str]
+    known_tradeoffs: List[str]
+    confidence: float

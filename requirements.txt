@@ -1,0 +1,7 @@
+openai
+chromadb
+pydantic
+fastapi
+requests
+beautifulsoup4
+python-dotenv

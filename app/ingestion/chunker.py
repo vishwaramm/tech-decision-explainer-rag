@@ -1,5 +1,5 @@
 from typing import List
-from app.model.document import DocumentChunk
+from app.models.document import DocumentChunk
 import uuid
 
 DECISION_SECTIONS = [
