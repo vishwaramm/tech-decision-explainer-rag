@@ -15,3 +15,9 @@ sources/ → raw truth
 processed/ → normalized truth
 
 embeddings/ → derived state
+
+must have .env file:
+
+OPENAI_API_KEY=
+OPENAI_MODEL_CHAT=gpt-4o-mini
+OPENAI_MODEL_EMBED=text-embedding-3-large
